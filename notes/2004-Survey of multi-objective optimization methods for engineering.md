@@ -13,9 +13,21 @@
 continuous and nonlinear mop问题的综述。主要归类为以下几种方法：
 
 - methods with a priori articulation of preferences：先验偏好
+  - Weighted global criterion method
+  - Weighted sum method
+  - Lexicographic method
+  - Weighted min-max method
+  - Goal programming methods
 - methods with a posteriori articulation of preferences：后验偏好
+  - Physical programming
+  - Normal boundary intersection (NBI) method
+  - Normal constraint (NC) method
 - methods with no articulation of preferences：没有表达偏好
 - Genetic algorithms
+  - Vectorevaluatedgeneticalgorithm（VEGA）
+  - NSGA-II
+  - MOEA/D
+  - PESA-II
 
 除非理想点可实现（实现所有目标的最优），否则一个多目标问题的单一全局解决方案是不存在的。
 
