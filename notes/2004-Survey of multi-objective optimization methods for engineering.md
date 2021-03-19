@@ -23,8 +23,8 @@ continuous and nonlinear mop问题的综述。主要归类为以下几种方法�
   - Normal boundary intersection (NBI) method
   - Normal constraint (NC) method
 - methods with no articulation of preferences：没有表达偏好
-- Genetic algorithms
-  - Vectorevaluatedgeneticalgorithm（VEGA）
+- Genetic algorithms（属于后验偏好）
+  - Vector evaluated genetic algorithm（VEGA）
   - NSGA-II
   - MOEA/D
   - PESA-II
