@@ -74,7 +74,7 @@
 
 2. 同层级个体依据**拥挤度排序**。计算每个个体的拥挤度，个体拥挤度越大，表明该个体越优。
 
-![image-20201221141012201](D:%5CYP%5C%E7%A0%94%E7%A9%B6%5CGithub%5Cpaper_notes%5Cnotes%5Cimage-20201221141012201.png)
+![image-20201221141012201](D:%5CYP%5C%E7%A0%94%E7%A9%B6%5CGithub%5Cpaper_notes%5Cimage%5CNGSA-II-sorting.png)
 
 
 

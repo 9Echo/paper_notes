@@ -26,7 +26,7 @@
 
 **算法框架如图**
 
-![img](D:\Users\YP\github\paper_notes\image\annealing-mutation-PSO.png)
+![img](annealing-mutation-PSO.png)
 
 #### 实验证明
 

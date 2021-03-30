@@ -1,3 +1,7 @@
+---
+typora-root-url: ..\image
+---
+
 ## A Multi-Objective Optimization Dispatch Methodfor Microgrid Energy Management Consideringthe Power Loss of Converters
 
 **作者**：武晓敏（中国地质大学）
@@ -15,7 +19,7 @@
    - 第二阶段根据实时信息更新当前运行日下几个调度时段的调度计划
 2. 提出一种基于对立面的混合粒子群优化算法（PSO-ogsa）。为了提高遗传算法的搜索效率，引入了粒子群优化算法的内存和群体，改进了遗传算法的加速机制，并采用了基于权重的惯性质量更新规则，使得遗传算法中的代理总是向最优解移动。
 
-![img](D:\Users\YP\github\paper_notes\image\two-stage model.png)
+![img](two-stage model.png)
 
 **目标函数**
 
@@ -29,7 +33,7 @@
 
 **实时更新阶段**根据触发器的动作信号，利用所提出的PSO-OGSA优化目标函数，制定并更新微电网运行中未来几个时段的调度计划（调度时间步长15min）。触发器的输入数据包括实时天气信息、发电机组实时发电功率和微电网实时负荷需求。触发器的动作信号被激活，使误差范围超过临界值，误差介于监测数据和预报信息之间。触发器在发出动作信号后，输出新的发电机组预计功率和负荷需求。实时天气信息主要包括太阳辐射、温度、气压、风速、风向和湿度等，这些信息都是从当地气象部门的网站上获得的。发电负荷需求误差范围临界值设定为10% ，气象信息误差范围临界值设定为20% 。
 
-![img](D:\Users\YP\github\paper_notes\image\flow-chart of the TSD model.png)
+![img](flow-chart of the TSD model.png)
 
 **GSA**
 
@@ -48,7 +52,7 @@ PSO粒子的位置由粒子的当前位置信息和群体信息共同决定，**
 
 为了使重力更大的agent（即更优的解）可以在搜索空间中更快地向全局最优解移动，提出一种**权值更新算法**，在迭代时更新所有代理的质量。
 
-![img](D:\Users\YP\github\paper_notes\image\Flowchart of PSO-OGSA.png)
+![img](Flowchart of PSO-OGSA.png)
 
 **实验验证**
 
