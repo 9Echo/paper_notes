@@ -1,3 +1,7 @@
+---
+typora-root-url: ..\image
+---
+
 ## SPEA:  A Comparative Case Study and the Strength Pareto Approach
 
 #### 主要思想
@@ -40,7 +44,7 @@
 1. 对 $P^*$ 中的元素 i 给定一个强度值 Si，该强度值和这个点支配 P 集合里点得数目有关，设定 n 代表点（$P^*$ 中的非支配点）支配的点（在 P 中的点）的数目，N 代表 P 集合中点的总数目，那么 Si = n / (N+1)
 2.  P 集合里的点的适应度等于 $P^*$ 中支配该点的非支配解的 Si 值 + 1
 
-![image-20210330151641901](D:%5CYP%5C%E7%A0%94%E7%A9%B6%5CGithub%5Cpaper_notes%5Cimage%5Cformula1)
+![img](formula1.png)
 
 **举例**
 
@@ -48,7 +52,7 @@
 
 最上方的3/8，因为支配它的有左下角矩阵里的3个解，N 中解的个数是7个+1，所以是3/8，矩形框内计算同理，如果有交叉区域的话求和，比如左下角的19/8，是三个非支配解的和+1（3/8+5/8+3/8+1=19/8）
 
-![image](CSPEA.png)
+![img](SPEA.png)
 
 上面两个图反映：
 
