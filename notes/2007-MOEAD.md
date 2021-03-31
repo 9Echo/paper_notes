@@ -45,7 +45,7 @@
 
   <img src="C:\Users\lambda\AppData\Roaming\Typora\typora-user-images\image-20201221141319305.png" alt="image-20201221141319305" style="zoom:80%;" />
 
-  一般对于一个未知的多目标优化问题，想要知道真实的 Pareto Front 数据比较困难，所以 HV 更容易用来作为一个测度在种群进化过程中来选择个题。
+  一般对于一个未知的多目标优化问题，想要知道真实的 Pareto Front 数据比较困难，所以 HV 更容易用来作为一个测度在种群进化过程中来选择个体。
 
 - **结果可视化**
 
