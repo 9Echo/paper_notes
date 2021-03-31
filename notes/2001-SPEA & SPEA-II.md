@@ -48,7 +48,7 @@
 
 最上方的3/8，因为支配它的有左下角矩阵里的3个解，N 中解的个数是7个+1，所以是3/8，矩形框内计算同理，如果有交叉区域的话求和，比如左下角的19/8，是三个非支配解的和+1（3/8+5/8+3/8+1=19/8）
 
-![image-20210330152507968](D:%5CYP%5C%E7%A0%94%E7%A9%B6%5CGithub%5Cpaper_notes%5Cimage%5CSPEA.png)
+![image](CSPEA.png)
 
 上面两个图反映：
 
@@ -66,7 +66,7 @@ b：一个solution 如果有更多的neighbor 它的fitness就越大，应该受
 4. 选择最小距离的两个cluster，合并
 5. 计算合并后的非支配解集，每个cluster选择一个代表individual，这里选的聚类中心（与类中其他点的平均距离最小）作为代表解。
 
-![image-20210330153705520](D:%5CYP%5C%E7%A0%94%E7%A9%B6%5CGithub%5Cpaper_notes%5Cimage%5CSPEA-formula2)
+![image](SPEA-formula2.png)
 
 #### 实验
 

@@ -1,3 +1,7 @@
+---
+typora-root-url: ..\image
+---
+
 ## Multi-Objective Optimal Dispatching of Microgrid With Large-Scale Electric Vehicles
 
 #### 本文实现：
