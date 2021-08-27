@@ -32,3 +32,11 @@ $$
 Z = \sum_{k=4}^4\lambda_k \cdot Y_k
 $$
 
+$$
+\max \ \  Z_1 = \max \ \ \sum_i^n w_i \cdot x_i
+$$
+
+$$
+\max \ \ Z_2 = \max \ \ \sum_i^n 
+$$
+
